@@ -18,10 +18,10 @@ struct node* head = 0;
 
 int size = 0;
 
-void push();
-int pop();
-int top();
-int empty();
+void push(); // 스택에 새로운 값을 넣는다.
+int pop(); // 스택에 마지막으로 입력된 값을 뺀다.
+int top(); // 스택에서 마지막으로 입력된 값을 확인하고,이를 빼내지는 않는다.
+int empty(); // 스택이 비었는지 체크한다.
 
 int main() {
 	int n;
